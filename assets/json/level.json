@@ -1,0 +1,79 @@
+{
+    "size": 7,
+    "cube": {
+      "x": 0,
+      "y": 0,
+      "cubeSpeed": 1,
+      "cubeDirection": "SOUTH"
+    },
+    "tileStock": {
+      "ARROW": 3,
+      "PORTAL": 2
+    },
+    "grid": [
+      [
+        { "tile": "START", "direction": "SOUTH" },
+        { "tile": "EMPTY", "direction": "SOUTH" },
+        { "tile": "EMPTY", "direction": "SOUTH" },
+        { "tile": "SLIDE", "direction": "SOUTH" },
+        { "tile": "PORTAL", "direction": "SOUTH" },
+        { "tile": "EMPTY", "direction": "SOUTH" },
+        { "tile": "ARROW", "direction": "EAST" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "EMPTY", "direction": "NORTH" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "ARROW", "direction": "EAST" },
+        { "tile": "SLIDE", "direction": "WEST" },
+        { "tile": "EMPTY", "direction": "WEST" },
+        { "tile": "ARROW", "direction": "NORTH" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "EMPTY", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "NORTH" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "SLIDE", "direction": "EAST" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "NORTH" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "PORTAL", "direction": "WEST" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "NORTH" }
+      ],
+      [
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FINISH", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "SOUTH" },
+        { "tile": "FORBIDDEN", "direction": "NORTH" }
+      ]
+      
+    ]
+  }

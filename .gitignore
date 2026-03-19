@@ -1,0 +1,3 @@
+# Dossiers et fichiers spécifiques à Visual Studio Code
+.vscode/
+*.code-workspace

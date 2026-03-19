@@ -1,0 +1,8 @@
+Nous allons créer un executable pour le projet (a chaque release)
+pour cela il faut:
+Compiler tout les .java :" javac -d bin Models/*.java Views/*.java Controllers/*.java "
+Puis executer:" jar cvf prog.jar -C bin Models -C bin Views -C bin Controllers "
+Puis dans le fichier MANIFEST.MF dans prog.jar ainsi créé, ajouter :" Main-Class: Views.nomDeLaClassContenantLeMain "
+
+Pour executer le programe il suffit maintenant de double cliquer sur le fichier jar
+ou d'executer :" java -jar prog.jar "
